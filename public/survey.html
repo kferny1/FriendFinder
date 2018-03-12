@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder Survey</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="container">
+    
+    <div class="jumbotron">
+      <h1 class=""><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+      <h2>Survey Questions</h2>
+    </div>
+    
+    <!-- Start Survey -->
+    <form role="form">
+      <div>
+        <h4>Name (Required)</h4>
+        <input type="text" name="" id="name" class="form-control" required >
+
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photoUrl" class="form-control" required >
+        <hr>
+        
+        <h3><strong>Question 1</strong></h3>
+        <h4>Do you like to exercise?</h4>
+        <select data-placeholder="" class="chosen-select" id="q1">
+          <option value=""></option>
+          <option value="1">1 (Rarely exercise)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Always exercise)</option>
+        </select>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>Do you enjoy playing vodeo games?</h4>
+        <select data-placeholder="" class="chosen-select" id="q2">
+          <option value=""></option>
+          <option value="1">1 (No Way)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Want to see my Mario Sheets?)</option>
+        </select>
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>Do you enjoy watching Football?</h4>
+        <select data-placeholder="" class="chosen-select" id="q3">
+          <option value=""></option>
+          <option value="1">1 (Fooseball?)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (NFL baby!)</option>
+        </select>
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>Do you enjoy SuperHero Movies?</h4>
+        <select data-placeholder="" class="chosen-select" id="q4">
+          <option value=""></option>
+          <option value="1">1 (I prefer my movies... not super)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Iron Man for President)</option>
+        </select>
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>Do you enjoy Reading?</h4>
+        <select data-placeholder="" class="chosen-select" id="q5">
+          <option value=""></option>
+          <option value="1">1 (Is this really only question 5?)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (My kindle library overfloweth)</option>
+        </select>
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>Do you enjoy cooking?</h4>
+        <select data-placeholder="" class="chosen-select" id="q6">
+          <option value=""></option>
+          <option value="1">1 (I burn water)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (I Sous Vide before it was trendy!)</option>
+        </select>
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>Meat Lovers Pizza?</h4>
+        <select data-placeholder="" class="chosen-select" id="q7">
+          <option value=""></option>
+          <option value="1">1 (Think of the animals!)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Triple Pepperoni Please!)</option>
+        </select>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>Do you enjoy Romance Movies?</h4>
+        <select data-placeholder="" class="chosen-select" id="q8">
+          <option value=""></option>
+          <option value="1">1 (Hard Pass, no crying.)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Jane Austin is my SuperHero)</option>
+        </select>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>Spicy or Not Spicy food?</h4>
+        <select data-placeholder="" class="chosen-select" id="q9">
+          <option value=""></option>
+          <option value="1">1 (Ketchup only, thanks)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Crank it to 11!)</option>
+        </select>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>Do you enjoy Cruises?</h4>
+        <select data-placeholder="" class="chosen-select" id="q10">
+          <option value=""></option>
+          <option value="1">1 (What? I'd Rather work!)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Give me all the cruises!)</option>
+        </select>
+
+      </div>
+      <hr>
+
+      <!-- Submit Button -->
+      <div>
+        <button type="submit" class="btn btn-primary btn-md " id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+      </div>
+    </form>
+
+    <div>
+      <h3 id='friendFound'></h3>
+      <div id="friendImage"></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
